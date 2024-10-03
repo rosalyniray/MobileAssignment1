@@ -135,7 +135,7 @@ fun MortgageCalculator() {
         }
 
         Text(
-            text = "Your Payment: ₹%.2f".format(emi),
+            text = "Your Payment: $%.2f".format(emi),
             style = MaterialTheme.typography.bodyLarge,
             color = Color.White // Set this text to white
         )
